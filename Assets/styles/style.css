@@ -1,0 +1,1095 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", sans-serif;
+}
+
+.h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.main-container {
+    max-width: 1600px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #F4F7FA;
+}
+
+
+
+
+
+/* --------------------HOME--------------------------- */
+
+.navbar {
+    color: #161C2D;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1232px;
+    padding-left: 66px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 21px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 7px;
+    padding-right: 40px;
+}
+
+.navbar ul li {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+}
+
+.color-orange {
+    color: #FB6D45;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.nav-btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    background-color: inherit;
+    border: none;
+}
+
+.logo {
+    color: #161C2D;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.16px;
+    font-family: rubik, sans-serif;
+}
+
+
+
+
+
+/* -----------------HEADER-------------------- */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.header-text {
+    max-width: 518px;
+    min-height: 402px;
+}
+
+.header-content h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    padding-right: 150px;
+}
+
+.header-content p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin-top: 20px;
+    padding-right: 150px;
+    opacity: 70%;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* ----------------------COMPANIES---------------------- */
+
+.companies {
+    text-align: center;
+    max-width: 766px;
+    min-height: 338px;
+    margin: 114px auto 125px auto;
+}
+
+.companies h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    margin-bottom: 30px;
+}
+
+.companies p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin-bottom: 60px;
+    margin-inline: 40px;
+    opacity: 70%;
+}
+
+
+
+
+
+/* ----------------------JOB CATEGORIES---------------------- */
+
+.job-categories {
+    background-color: #161C2D;
+    min-height: 746px;
+    overflow: hidden;
+}
+
+.job-categories-content {
+    max-width: 1110px;
+    min-height: 470px;
+    margin: 132px 240px 144px 250px;
+}
+
+.job-categories-content h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.job-categories-text {
+    margin-bottom: 74px;
+    width: 388px;
+    color: #FFFFFF;
+}
+
+.job-categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.job-categories-list div {
+    background-color: #FFFFFF;
+    height: 117px;
+    width: 260px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.job-categories-list div:first-child {
+    background-color: #473BF0;
+    color: #FFFFFF;
+    position: relative;
+    top: -9px;
+}
+
+.job-categories-list h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-top: 26px;
+    margin-left: 32px;
+}
+
+.job-categories-list p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    margin-top: 5px;
+    margin-left: 32px;
+    opacity: 70%;
+}
+
+
+
+
+
+
+/* ----------------------FIND JOBS---------------------- */
+
+.find-jobs {
+    margin-top: 113px;
+}
+
+.find-jobs h2 {
+    margin-bottom: 17px;
+}
+
+.find-jobs-text {
+    text-align: center;
+    max-width: 589px;
+    margin: 0 auto 96px auto;
+}
+
+.find-jobs-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding-bottom: 65px;
+}
+
+.find-jobs-steps img {
+    max-width: 425px;
+    height: auto;
+}
+
+.new-invitation {
+    display: flex;
+    background-color: #161C2D;
+    align-items: center;
+    min-height: 91px;
+    width: 351px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    top: -193px;
+    left: -76px;
+}
+
+.new-invitation img {
+    background-color: #68D585;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    margin-right: 13px;
+    margin-left: 24px;
+    padding: 10px;
+}
+
+.new-invitation p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+}
+
+.new-invitation .p2 {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 100%;
+}
+
+.find-jobs-lists {
+    counter-reset: step-counter;
+    list-style: none;
+    position: relative;
+    top: -45px;
+}
+
+.find-jobs-lists li {
+    counter-increment: step-counter;
+    margin-bottom: 50px;
+    position: relative;
+    padding-left: 65px;
+    max-width: 404px;
+    padding-right: 15px;
+}
+
+.find-jobs-lists li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 43px;
+    height: 43px;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.find-jobs-lists li h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+}
+
+.find-jobs-lists li p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.find-jobs-lists li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+/* ----------------------FEATURED JOBS---------------------- */
+
+.featured-jobs {
+    /* min-height: 740px; */
+    margin: 0 auto;
+    padding: 107px 245px 141px 245px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-jobs-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 84px;
+}
+
+.featured-jobs-header h2 {
+    margin-bottom: 17px;
+}
+
+.featured-jobs-header p {
+    max-width: 353px;
+}
+
+.featured-jobs-header img {
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+    padding: 15px 14px 15px 12px;
+}
+
+.featured-jobs-list {
+    display: flex;
+    gap: 30px;
+}
+
+.featured-job-item {
+    width: 255px;
+    height: 279px;
+    border-radius: 10px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.fji-header {
+    color: #68D585;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 1.63px;
+    margin-bottom: 17px;
+}
+
+.purple {
+    color: #473BF0;
+}
+
+.red {
+    color: #F64B4B
+}
+
+.fji-title {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.fji-location {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+}
+
+.fji-company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fji-company p {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+
+@media (max-width: 1300px) {
+    .featured-jobs-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .featured-job-item {
+        width: 45%;
+    }
+}
+
+
+
+
+
+/* --------------------NEWS-------------------- */
+
+.news {
+    /* min-height: 890px; */
+    overflow: hidden;
+}
+
+.news-header {
+    text-align: center;
+    margin-top: 97px;
+    margin-bottom: 74px;
+    margin-inline: auto;
+    max-width: 505px;
+}
+
+.news-header h2 {
+    margin-bottom: 17px;
+}
+
+.news-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 140px;
+}
+
+.news-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-item {
+    max-width: 350px;
+}
+
+.news-item p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    margin-left: 32px;
+}
+
+.news-item h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-inline: 32px;
+    margin-bottom: 27px;
+}
+
+
+
+
+
+/* --------------------SUBSCRIBE-------------------- */
+
+.subscribe {
+    text-align: center;
+    padding-block: 120px;
+    max-width: 532px;
+    margin: 0 auto;
+}
+
+.subscribe img {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.subscribe h2 {
+    margin-bottom: 20px;
+}
+
+.subscribe-form {
+    margin-top: 40px;
+}
+
+.subscribe-form input {
+    flex-grow: 1;
+    padding: 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribe-form input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    opacity: 70%;
+    letter-spacing: -0.18px;
+}
+
+.subscribe-form button {
+    width: 166px;
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    background-color: #473BF0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    margin-right: 6px;
+}
+
+.subscribe-form .subscribe-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 70%;
+    margin-top: 25px;
+    max-width: 365px;
+    margin-inline: auto;
+}
+
+
+
+
+
+/*---------------------FOOTER-------------------- */
+
+.footer {
+    min-height: 496px;
+    color: #FFFFFF;
+    padding-block: 122px 128px;
+    margin-inline: auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.background-color {
+    background-color: #161C2D;
+}
+
+.footer-content1 {
+    width: 274px;
+    margin-right: 8%;
+}
+
+.footer-content2 {
+    width: 144px;
+    min-width: 80px;
+}
+
+.footer-content3 {
+    width: 125px;
+    min-width: 74px;
+}
+
+.footer-content4 {
+    width: 156px;
+    min-width: 127px;
+}
+
+.footer-content5 {
+    width: 161px;
+    min-width: 145px;
+}
+
+
+.footer-content1 ul {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-company {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.16px;
+    margin-bottom: 36px;
+}
+
+.footer h4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    margin-bottom: 20px;
+    opacity: 65%;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    opacity: 65%;
+    margin-bottom: 44px;
+}
+
+.footer li {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+}
+
+.footer-content1 li {
+    line-height: 18px;
+}
+
+
+
+
+
+/* ---------------------ABOUT PAGE----------------------- */
+
+.about-section {
+    max-width: 1110px;
+    margin: 109px auto 86px auto;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 44px;
+}
+
+.about-section p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    margin-bottom: 58px;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.about-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 141px auto;
+}
+
+.about-text {
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    gap: 121px;
+}
+
+.about-text h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    max-width: 451px;
+}
+
+.about-text-paragraphs {
+    max-width: 469px;
+}
+
+.about-text p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+
+
+
+
+/* ------------------------CODERS SECTION------------------- */
+
+.coders-section {
+    margin:  auto;
+    padding-block: 181px 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.coders-images {
+    display: flex;
+    gap: 30px;
+    max-width: 479px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coders-images img {
+    max-width: 224px;
+    height: auto;
+    display: block;
+}
+
+.coders-images img:first-child, img:nth-child(3) {
+    position: relative;
+    top: -42px;
+}
+
+.coders-text {
+    max-width: 495px;
+}
+
+.coders-text h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    margin-bottom: 38px;
+    max-width: 382px;
+}
+
+.coders-text p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+
+
+
+
+/* ---------------------------TEAM SECTION------------------- */
+
+.team-section {
+    margin: 107px auto 179px auto;
+}
+
+.team-text {
+    text-align: center;
+    max-width: 611px;
+    margin: 0 auto 68px auto;
+}
+
+.team-text h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    margin-bottom: 25px;
+}
+
+.team-text p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.team-members {
+    max-width: 1158px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 30px;
+    margin-inline: auto;
+}
+
+.team-members img {
+    max-width: 267px;
+    display: block;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-top: 31px;
+    margin-bottom: 4px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+
+
+
+
+/* ------------------SUPPORT PAGE-------------------- */
+
+.support-header {
+    max-width: 640px;
+    min-height: 202px;
+    margin: 109px auto 39px auto;
+    text-align: center;
+}
+
+.support-header h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 44px;
+}
+
+.support-header p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.support-section {
+    max-width: 752px;
+    margin: 0 auto 210px auto;
+    padding-right: 20px;
+}
+
+.support-section p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    margin-bottom: 43px;
+}
+
+.support-section h3 {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    margin-bottom: 20px;
+}
+
+.support-section .security {
+    margin-bottom: 12px;
+}   
+
+.support-section li {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    list-style-type: disc;
+    margin-left: 18px;
+}
+
+.support-section ul {
+    margin-bottom: 43px;
+}
+
+
+
+
+
+/* ---------------------------LOGIN PAGE----------------------------- */
+
+.login-header {
+    font-family: rubik, sans-serif;
+    width: 157px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.13px;
+    margin: 25px auto 26px auto;
+    position: relative;
+    left: -18.5px;
+}
+
+.login-section {
+    margin: 125px auto 227px auto;
+}
+
+.login-intro {
+    max-width: 338px;
+    margin: 0 auto 55px auto;
+    text-align: center;
+}
+
+.login-intro h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 34px;
+}
+
+.login-intro p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 31px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    margin-bottom: 7px;
+}
+
+.login-form input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.login-form input:focus {
+    outline: none;
+}
+
+.login-form input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    opacity: 70%;
+    letter-spacing: -0.1px;
+    padding-left: 18px;
+    padding-inline: 18px 20px;
+}
+
+.login-form button {
+    width: 100%;
+    height: 59px;
+    margin-top: 50px;
+    background-color: #473BF0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    border-radius: 8px;
+    border: none;
+}
+
+.signup-link {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    margin-top: 39px;
+}
+
+.signup-link a {
+    color: #473BF0;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+    color: #161C2D;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ---------------------SIGNUP PAGE--------------------- */
+
+.signup-section {
+    margin: 125px auto 206px auto;
+}
+
+.login-form .signup-button {
+    margin-top: 57px;
+}
+
+.login-link {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    margin-top: 46px;
+}
+
+.login-link a {
+    color: #473BF0;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+    color: #161C2D;
+    cursor: pointer;
+}
+
