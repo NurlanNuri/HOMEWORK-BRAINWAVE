@@ -27,7 +27,7 @@
     max-width: 1600px;
     margin: auto;
     overflow: hidden;
-    background-color: #F4F7FA;
+    /* background-color: #F4F7FA; */
 }
 
 
@@ -35,6 +35,11 @@
 
 
 /* --------------------HOME--------------------------- */
+
+.background-color2 {
+    background-color: #F0FBF3;
+    overflow: hidden;
+}
 
 .navbar {
     color: #161C2D;
@@ -103,6 +108,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 56px;
+    background-image: url(../images/wave\ 1.png);
+    background-color: #F0FBF3;
 }
 
 .header-text {
@@ -476,6 +483,7 @@
 .news {
     /* min-height: 890px; */
     overflow: hidden;
+    background-color: #F4F7FA
 }
 
 .news-header {
@@ -769,6 +777,7 @@
     justify-content: center;
     align-items: center;
     gap: 95px;
+    background-color: #F4F7FA
 }
 
 .coders-images {
@@ -964,7 +973,9 @@
 }
 
 .login-section {
-    margin: 125px auto 227px auto;
+    margin: 0px auto 69px auto;
+    background-color: #F4F7FA;
+    padding-block: 125px 158px;
 }
 
 .login-intro {
@@ -1010,7 +1021,7 @@
     height: 50px;
     margin-bottom: 20px;
     border-radius: 8px;
-    border: none;
+    border: solid 1px #E7E9ED;
 }
 
 .login-form input:focus {
@@ -1067,9 +1078,16 @@
 /* ---------------------SIGNUP PAGE--------------------- */
 
 .signup-section {
-    margin: 125px auto 206px auto;
+    margin: 0 auto 69px auto;
+    background-color: #F4F7FA;
+    padding-block: 125px 137px;
 }
 
+.login-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 1px #E7E9ED;
+}
 .login-form .signup-button {
     margin-top: 57px;
 }
